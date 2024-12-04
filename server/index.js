@@ -11,7 +11,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server, {
   cors: {
-    origin: "https://chatter-sphere-lovelish.vercel.app/", // Your React app's origin
+    origin: "https://chattersphere.lovelish.me/", // Your React app's origin
     methods: ["GET", "POST"],
     credentials: true,
   },
