@@ -11,7 +11,7 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = 'http://localhost:5000/';
+const ENDPOINT = 'https://chatter-sphere-wlk5.onrender.com/';
 
 let socket;
 
